@@ -7,7 +7,7 @@ function Expand-WebArchive
                    Position=0)]
             [string]$Uri,
         [Parameter(Mandatory=$false,
-                   Position=0)]
+                   Position=1)]
             [string]$DestinationPath = "."
     )
 
